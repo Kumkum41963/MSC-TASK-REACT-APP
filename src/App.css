@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d2426;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #101112;
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+
+}
+
+.navlist-items {
+  margin: 1rem;
+}
+
+.navlist-items button {
+  background-color: #000000;
+  color: rgb(245, 239, 239);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+/* HOME */
+
+/* JUMBOTRON-HOME */
+.jumbotron{
+  margin: 2rem auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  border: 0.1rem solid #ffffff;
+  background-color: #242b2b;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 5rem;
+  color: white;
+}
+
+.jumbotron-heading{
+  color: wheat;
+  font-size: 400%;
+}
+
+.jumbotron-btn{
+  background-color:  #000000;
+  border-radius: 0.3rem;
+  margin: 1rem;
+  color: white;
+  padding: 1rem;
+  font-size: 100%;
+}
+
+.jumbotron-content{
+  padding: 0.5rem;
+  color: white;
+  font-size: 200%;
+  font-weight: 50;
+}
+
+/* COUNTER-HOME */
+.counter{
+  margin:  2rem auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  border: 0.1rem solid #ffffff;
+  background-color: #242b2b;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 5rem;
+}
+
+.counter-btn{
+  background-color:  #000000;
+  border-radius: 0.3rem;
+  margin: 1rem;
+  color: white;
+  padding: 1rem;
+  font-size: 100%;
+}
+
+.counter-count{
+  font-size: 500%;
+  font-weight: 900;
+  color: white;
+}
+
+
+/* ABOUT */
+.about{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 500%;
+  font: 100%;
+  margin: 15rem;
+}
+
+/* CONTACT */
+.contact{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 500%;
+  font: 100%;
+  margin: 15rem;
+}
+
+/* SIGN In */
+.signIn{
+  display: flex;
+  justify-content: center;
+  border: 0.1rem solid #ffffff;
+  border-radius: 0.3rem;
+  background-color: #000000;
+  margin: auto;
+  width: 25rem;
+}
+
+.signIn-container{
+  padding: 4rem;
+  margin: 0rem 2rem;
+}
+
+.signIn-heading{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 200%;
+}
+
+.signIn-input-holder{
+  text-align: center;
+}
+
+.signIn-input{
+  margin: 0.5rem;
+  background-color: #202323;
+  border-radius: 0.3rem;
+  padding: 0.3rem;
+  width: 100%;
+}
+
+.signIn-btn{
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.3rem;
+  margin: 0.5rem;
+  width: 100%;
+  border-radius: 0.3rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+input{
+  color: white;
+}
+
+input::placeholder { /* Standard syntax */
+  color: white;
+}
+
+.or{
+  font-weight: 100%;
+  font-size: 100%;
+  color: #ffffff;
+  text-align: center;
+  margin: 0.7rem;
+}
+
+.google-signIn-btn{
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.3rem;
+  margin: 0.5rem;
+  width: 100%;
+  border-radius: 0.3rem;
+  text-align: center;
+  cursor: pointer;
+}
