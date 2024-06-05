@@ -1,11 +1,11 @@
-import React ,{useState} from 'react'
+import React, { useState } from 'react'
 
 const Home = () => {
-    const [count,setCount]=useState(0);
+    const [count, setCount] = useState(0);
     const handleClick = () => {
         alert("The button has been clicked!");
-      }
-      
+    }
+
     return (
         <>
             {/* JUMBOTRON */}
@@ -21,9 +21,9 @@ const Home = () => {
             <div className="counter">
                 <div className="counter-container">
                     <p className="counter-count">{count}</p>
-                    <button className="counter-btn" onClick={()=>setCount(count+1)}>Increment</button>
-                    <button className="counter-btn" onClick={()=>setCount(0)}>Reset</button>
-                    <button className="counter-btn" onClick={()=>setCount(count-1)}>Decrement</button>
+                    <button className="counter-btn" onClick={() => setCount(count + 1)}>Increment</button>
+                    <button className="counter-btn" onClick={() => setCount(0)}>Reset</button>
+                    <button className="counter-btn" onClick={() => setCount(count - 1)}>Decrement</button>
                 </div>
             </div>
         </>

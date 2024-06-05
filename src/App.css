@@ -35,7 +35,7 @@ body {
 /* HOME */
 
 /* JUMBOTRON-HOME */
-.jumbotron{
+.jumbotron {
   margin: 2rem auto;
   width: 80%;
   display: flex;
@@ -48,13 +48,13 @@ body {
   color: white;
 }
 
-.jumbotron-heading{
+.jumbotron-heading {
   color: wheat;
   font-size: 400%;
 }
 
-.jumbotron-btn{
-  background-color:  #000000;
+.jumbotron-btn {
+  background-color: #000000;
   border-radius: 0.3rem;
   margin: 1rem;
   color: white;
@@ -62,7 +62,7 @@ body {
   font-size: 100%;
 }
 
-.jumbotron-content{
+.jumbotron-content {
   padding: 0.5rem;
   color: white;
   font-size: 200%;
@@ -70,8 +70,8 @@ body {
 }
 
 /* COUNTER-HOME */
-.counter{
-  margin:  2rem auto;
+.counter {
+  margin: 2rem auto;
   width: 80%;
   display: flex;
   justify-content: center;
@@ -82,8 +82,8 @@ body {
   padding: 5rem;
 }
 
-.counter-btn{
-  background-color:  #000000;
+.counter-btn {
+  background-color: #000000;
   border-radius: 0.3rem;
   margin: 1rem;
   color: white;
@@ -91,7 +91,7 @@ body {
   font-size: 100%;
 }
 
-.counter-count{
+.counter-count {
   font-size: 500%;
   font-weight: 900;
   color: white;
@@ -99,7 +99,7 @@ body {
 
 
 /* ABOUT */
-.about{
+.about {
   display: flex;
   justify-content: center;
   color: white;
@@ -109,7 +109,7 @@ body {
 }
 
 /* CONTACT */
-.contact{
+.contact {
   display: flex;
   justify-content: center;
   color: white;
@@ -119,7 +119,7 @@ body {
 }
 
 /* SIGN In */
-.signIn{
+.signIn {
   display: flex;
   justify-content: center;
   border: 0.1rem solid #ffffff;
@@ -129,12 +129,12 @@ body {
   width: 25rem;
 }
 
-.signIn-container{
+.signIn-container {
   padding: 4rem;
   margin: 0rem 2rem;
 }
 
-.signIn-heading{
+.signIn-heading {
   display: flex;
   justify-content: center;
   color: white;
@@ -145,11 +145,11 @@ body {
   font-size: 200%;
 }
 
-.signIn-input-holder{
+.signIn-input-holder {
   text-align: center;
 }
 
-.signIn-input{
+.signIn-input {
   margin: 0.5rem;
   background-color: #202323;
   border-radius: 0.3rem;
@@ -157,7 +157,7 @@ body {
   width: 100%;
 }
 
-.signIn-btn{
+.signIn-btn {
   background-color: #000000;
   color: #ffffff;
   padding: 0.3rem;
@@ -168,15 +168,16 @@ body {
   cursor: pointer;
 }
 
-input{
+input {
   color: white;
 }
 
-input::placeholder { /* Standard syntax */
+input::placeholder {
+  /* Standard syntax */
   color: white;
 }
 
-.or{
+.or {
   font-weight: 100%;
   font-size: 100%;
   color: #ffffff;
@@ -184,7 +185,7 @@ input::placeholder { /* Standard syntax */
   margin: 0.7rem;
 }
 
-.google-signIn-btn{
+.google-signIn-btn {
   background-color: #000000;
   color: #ffffff;
   padding: 0.3rem;
